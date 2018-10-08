@@ -2,71 +2,142 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Polygland</title>
 	<link rel="stylesheet" type="text/css" href="../css/Main.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/wourld.png">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<img src="#" class="logo">
-			<nav>
-				<ul class="menu">
-					<li>
-						<a href="About_company.html">О компании</a>
+	<header class="head-page">
+		<div class="header">
+			<div class="menu">
+				<div class="logo">
+					<a href="#"><img src="../img/man.png"></a>
+				</div>
+				<div class="logo">
+					<h3 class="text-logo">Polygland</h3>
+				</div>
+				<ul class="menu-left">
+					<li class="menu-item"><a class="text-color" href="#">О компании</a>
 						<ul class="submenu">
-							<li><a href="#">История создания</a></li>
-							<li><a href="#">Развитие проекта</a></li>
-							<li><a href="#">Наши партнеры</a></li>
+							<li class="submenu-item"><a href="https://google.com">История создания</a></li>
+							<li class="submenu-item"><a href="#">Развитие проекта</a></li>
+							<li class="submenu-item"><a href="#">Наши партнеры</a></li>
 						</ul>
 					</li>
-					<li>
-						<a href="Help.html">Помощь по сайту</a>
+					<li class="menu-item"><a class="text-color" href="#">Помощь по сайту</a>
 						<ul class="submenu">
-							<li><a href="#">Как найти людей</a></li>
-							<li><a href="#">Как изменить язык поиска</a></li>
-							<li><a href="#">Не получается зарегистрироваться?</a></li>
+							<li class="submenu-item"><a href="#">Как найти людей</a></li>
+							<li class="submenu-item"><a href="#">Как изменить язык поиска</a></li>
+							<li class="submenu-item"><a href="#">Не получается зарегистрироваться?</a></li>
 						</ul>
 					</li>
-					<li>
-						<a href="Communicate.html">Связь с нами</a>
+					<li class="menu-item"><a class="text-color" href="#">Связь с нами</a>
 						<ul class="submenu">
-							<li><a href="#">Телефон</a></li>
-							<li><a href="#">E-mail</a></li>
-							<li><a href="#">Адрес</a></li>
+							<li class="submenu-item"><a href="#">Контактная информация</a></li>
 						</ul>
 					</li>
-					<li>
-						<a href="Donations.html">Помочь проекту</a>
+					<li class="menu-item"><a class="text-color" href="#">Помочь проекту</a>
 						<ul class="submenu">
-							<li><a href="#">Банковские реквизиты</a></li>
-							<li><a href="#">PayPal</a></li>
+							<li class="submenu-item"><a href="#">Банковские реквизиты</a></li>
+							<li class="submenu-item"><a href="#">PayPal</a></li>
 						</ul>
 					</li>
 				</ul>
-			</nav>
-		</div>
-	</header>
-	<section>
-		<div class="container1">
-			<div class="button"><a href="#sign_in"><p>Войти</p></a></div>
-			<div id="sign_in" class="modal_window">
-				<div>
-					<a href="#close" title="Закрыть" class="close">X</a>
-					<h2>Авторизация</h2>
-					<input type="email" placeholder="example@email.com"/><br>
-					<input type="password" placeholder="*********"/><br>
-					<label><input type="checkbox" name="">Запомнить на этом компьютере</label>
-					<button type="button">
-						<a href="Registration.html">Зарегистрироваться</a>
-					</button>
-				</div>
-
+			</div>
+			<div class="menu">
+				<ul class="menu-right">
+					<li class="menu-item"><a class="text-color" href="#">Настройки</a>
+						<ul class="submenu">
+							<li class="submenu-item"><a href="https://google.com">Изменить язык</a></li>
+						</ul>
+					</li>
+					<li class="menu-item"><a class="text-color" href="#open-modal">Войти</a></li>
+				</ul>
 			</div>
 		</div>
-	</section>
-	<footer>
-		<div class="container">
-			Copyright Bogdanov Fedor, 2018
+	</header>
+	<div class="modal" id="open-modal">
+		<div class="modal-container registration">
+			<input class="input" type="email" placeholder="Введите ваш E-mail" required>
+			<input class="input" type="password" placeholder="Введите ваш пароль" required>
+			<div>
+				<input type="checkbox">Запомнить на этом устройстве
+			</div>
+			<div>
+				<p id="regbutton" class="title"><a href="#">Войти</a></p>
+			</div>
+			<div>
+				<p id="regbutton" class="title"><a href="#">Назад</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="grid">
+			<article class="main-article color">
+				<div class="content-page">
+					<h1 class="title">Выучи иностранный язык, общаясь с носителями языка</h1>
+					<p class="title">Наши преимущества</p>
+					<div class="our">
+						<div class="element">
+							<img class="element flexible-image" src="../img/clock.svg" width="200" height="200">
+							<p>Изучай язык в свободное время</p>
+						</div>
+						<div class="element">
+							<img class="element flexible-image" src="../img/tasks.svg" width="200" height="200">
+							<p>Знакомься, общайся и изучай языки в одном месте!</p>
+						</div>
+						<div class="element">
+							<img class="element flexible-image" src="../img/voice.svg" width="200" height="200">
+							<p>Отправляй голосовые сообщения</p>
+						</div>
+						<div class="element">
+							<img class="element flexible-image" src="../img/home.svg" width="200" height="200">
+							<p>Присоединяйся к нам!</p>
+						</div>
+					</div>
+				</div>
+			</article>
+			<div class="main-nav color">
+				<div class="registration">
+					<h4 class="title">Впервые на Polygland?</h4>
+					<p class="title">Моментальная регистрация</p>
+					<input class="input" type="text" placeholder="Ваше имя" required>
+					<input class="input" type="text" placeholder="Ваша фамилия" required>
+					<input class="input" type="email" placeholder="Ваш E-mail" required>
+					<input class="input" type="password" placeholder="Придумайте ваш пароль" required>
+					<div>
+						<p id="regbutton" class="title"><a href="#">Зарегистрироваться</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer-page">
+		<div class="footer-first element">
+			<div class="element icon">
+				<a href="https://google.com"><img src="../img/Google+.png" width="50" height="50"></a>
+			</div>
+			<div class="element icon">
+				<a href="https://facebook.com"><img src="../img/Facebook.png" width="50" height="50"></a>
+			</div>
+			<div class="element icon">
+				<a href="https://tumblr.com"><img src="../img/Tumblr.png" width="50" height="50"></a>
+			</div>
+			<div class="element icon">
+				<a href="https://twitter.com"><img src="../img/Twitter.png" width="50" height="50"></a>
+			</div>
+			<div class="element icon">
+				<a href="https://vimeo.com"><img src="../img/Vimeo.png" width="50" height="50"></a>
+			</div>
+			<div class="element icon">
+				<a href="https://Instgram.com"><img src="../img/Instgram.png" width="50" height="50"></a>
+			</div>
+		</div>
+	</footer>
+	<footer class="footer-second">
+		<div class="element">
+			<p>© 2018 Polygland</p>
 		</div>
 	</footer>
 </body>
