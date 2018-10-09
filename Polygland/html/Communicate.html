@@ -2,12 +2,111 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Communicate</title>
+	<title>Polygland</title>
+	<link rel="stylesheet" type="text/css" href="../css/Communicate.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/wourld.png">
 </head>
 <body>
-	<h1 align="center">Связь с нами</h1>
-	<p>Текст о компании....</p>
-	<a href="Index.html">Вернуться назад</a>
-	<footer>Copyright Bogdanov Fedor, 2018</footer>
+	<header class="head-page">
+		<div class="header">
+			<div class="menu">
+				<div class="logo">
+					<a href="Index.html"><img src="../img/man.png"></a>
+				</div>
+				<div class="logo">
+					<h3 class="text-logo">Polygland</h3>
+				</div>
+				<input type="checkbox" name="toggle" id="adaptivemenu" class="toggleMenu">
+				<label for="adaptivemenu" class="toggleMenu"><img class="fa" src="../img/menu.svg">Меню</label>
+				<ul class="menu-left">
+					<li class="menu-item"><a class="text-color" href="#">О компании</a>
+						<ul class="submenu">
+							<li class="submenu-item"><a href="https://google.com">История создания</a></li>
+							<li class="submenu-item"><a href="#">Развитие проекта</a></li>
+							<li class="submenu-item"><a href="#">Наши партнеры</a></li>
+						</ul>
+					</li>
+					<li class="menu-item"><a class="text-color" href="#">Помощь по сайту</a>
+						<ul class="submenu">
+							<li class="submenu-item"><a href="#">Как найти людей</a></li>
+							<li class="submenu-item"><a href="#">Как изменить язык поиска</a></li>
+							<li class="submenu-item"><a href="#">Не получается зарегистрироваться?</a></li>
+						</ul>
+					</li>
+					<li class="menu-item"><a class="text-color" href="#">Связь с нами</a>
+						<ul class="submenu">
+							<li class="submenu-item"><a href="#">Контактная информация</a></li>
+						</ul>
+					</li>
+					<li class="menu-item"><a class="text-color" href="#">Помочь проекту</a>
+						<ul class="submenu">
+							<li class="submenu-item"><a href="#">Банковские реквизиты</a></li>
+							<li class="submenu-item"><a href="#">PayPal</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul class="menu-right">
+					<li class="menu-item"><a class="text-color" href="#">Настройки</a>
+						<ul class="submenu">
+							<li class="submenu-item"><a href="https://google.com">Изменить язык</a></li>
+						</ul>
+					</li>
+					<li class="menu-item"><a class="text-color" href="#open-modal">Войти</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<main class="section">
+		<img src="../img/cat.jpg" class="mw-100">
+		<section class="contact-form">
+			<h1>Contact form</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem impedit saepe quibusdam nam natus ullam nostrum quaerat quasi quis et voluptatibus vel vitae dolorum nesciunt, maiores voluptates tempore iste optio.</p>
+			<div class="contact-wrapper">
+				<form action="#" name="newform" method="post">
+					<div class="form-inputs">
+						<p>Имя <span class="red">*</span><input type="text"></p>
+						
+						<p>Email <span class="red">*</span><input type="text"></p>
+						
+					</div>
+					<p>Сообщение <span class="red">*</span></p>
+					<textarea name="text"></textarea>
+					<div class="button-block">
+						<input type="submit" value="Отправить">
+					</div>
+				</form>
+			</div>
+
+		</section>
+	</main>
+	<footer class="footer-page">
+		<div class="footer-first element">
+			<div class="element icon">
+				<a href="https://google.com"><img id="google" src="../img/Google+.png" width="50" height="50"></a>
+			</div>
+			<div class="element icon">
+				<a href="https://facebook.com"><img id="facebook" src="../img/Facebook.png" width="50" height="50"></a>
+			</div>
+			<div class="element icon">
+				<a href="https://tumblr.com"><img id="tumblr" src="../img/Tumblr.png" width="50" height="50"></a>
+			</div>
+			<div class="element icon">
+				<a href="https://twitter.com"><img id="twitter" src="../img/Twitter.png" width="50" height="50"></a>
+			</div>
+			<div class="element icon">
+				<a href="https://vimeo.com"><img id="vimeo" src="../img/Vimeo.png" width="50" height="50"></a>
+			</div>
+			<div class="element icon">
+				<a href="https://Instgram.com"><img id="Instgram" src="../img/Instgram.png" width="50" height="50"></a>
+			</div>
+		</div>
+	</footer>
+	<footer class="footer-second">
+		<div class="element">
+			<p>© 2018 Polygland</p>
+		</div>
+	</footer>
 </body>
 </html>
