@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "ff-tisa-web-pro";
+	font-style: italic;
+	color: #333;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	width: 130px;
+}
+
+.logo {
+	margin-bottom: 40px;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 18px;
+	white-space: nowrap;
+	align-items: center;
+}
+
+li > p {
+	margin-left: 10px;
+}
+
+.menu-a {
+	text-decoration: none;
+	text-align: center;
+	color: #34AC98;
+}
+
+.join {
+	margin-top: 50px;
+}
+
+.text {
+	text-transform: uppercase;
+	font-style: normal;
+	font-size: 11px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #E5E5E5;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	align-items: center;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	height: 30px;
+	padding-left: 3px;
+}
+
+.one {
+	margin-bottom: 30px;
+}
+
+.button > p {
+	font-size: 11px;
+	color: #34AC98;
+	text-align: center;
+	margin-left: 7px;
+}
+
+.tweet > a {
+	text-decoration: none;
+}
+
+.tweet > p {
+	margin-top: 10px;
+	font-size: 11px;
+	line-height: 20px;
+}
+
+.content {
+	margin-left: 55px;
+}
+
+.slides > section > a {
+	text-decoration: none;
+}
+
+.slide-text {
+	display: flex;
+	flex-direction: column;
+	margin-top: -160px;
+}
+
+.black-text {
+	background: white;
+	color: black;
+	padding: 5px;
+	width: 250px;
+}
+
+.white-text {
+	background: black;
+	color: white;
+	padding: 5px;
+	width: 500px;
+}
+
+.slide-nav {
+	margin-top: 60px;
+	background: #EFF8F7;
+	display: flex;
+	flex-direction: row;
+	height: 50px;
+}
+
+.feature {
+	margin-right: 20px;
+	color: #34AC98;
+	margin-left: 10px;
+}
+
+.feature > h3 {
+	font-size: 20px;
+	font-style: normal;
+}
